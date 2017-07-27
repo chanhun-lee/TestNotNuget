@@ -6,7 +6,13 @@
         xmlns:local="clr-namespace:WpfApplicationTest"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
+    <Window.Resources>
         
+    </Window.Resources>
+    <Grid>
+        <StackPanel>
+            <local:CustomControl1></local:CustomControl1>
+            <local:CustomControl2></local:CustomControl2>
+        </StackPanel>
     </Grid>
 </Window>
