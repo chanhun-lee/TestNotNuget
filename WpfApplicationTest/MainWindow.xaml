@@ -13,6 +13,7 @@
         <StackPanel>
             <local:CustomControl1></local:CustomControl1>
             <local:CustomControl2></local:CustomControl2>
+            <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="Hotfix"/>
         </StackPanel>
     </Grid>
 </Window>
